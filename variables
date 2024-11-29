@@ -1,0 +1,6 @@
+
+madeTasksNum = 12
+spentHoursNum = 1.5
+course_name = 'Python'
+time_for_1task = spentHoursNum/madeTasksNum
+print('Курс:',course_name,',','всего задач:', madeTasksNum,',','затрачено часов:',spentHoursNum,',','среднее время выполнения',time_for_1task,'.')
