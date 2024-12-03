@@ -1,0 +1,17 @@
+#2 - задаем кортеж
+
+immutable_var = (2, 4, 'd', 'i', 'e', True)
+print('Immutable tuple: ',immutable_var)
+
+# 3 - пытаемся сменить значение
+
+#immutable_var[1] = 12 - переведены в комментарий чтоб не вызывать ошибку
+#print(immutable_var)
+
+# Объяснение возникновения ошибки: т.к. кортежи в Python являются неизменяемыми (immutable) объектами => после создания кортежа его элементы не могут быть изменены.
+
+#4 -созд изм стр данных
+
+mutable_list =[6,7,'x','y','z']
+mutable_list [2] = 's'
+print('Mutable list: ',mutable_list)
